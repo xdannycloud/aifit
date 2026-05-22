@@ -164,7 +164,7 @@ export default function App() {
       <div className="app__glow" aria-hidden="true" />
       <header className="app__header">
         <p className="app__eyebrow">a tiny dress-up game</p>
-        <h1 className="app__title">OOTD</h1>
+        <h1 className="app__title">AIFit</h1>
       </header>
 
       <section

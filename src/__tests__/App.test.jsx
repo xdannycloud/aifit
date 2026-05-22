@@ -17,15 +17,15 @@ function setup() {
   }
 }
 
-describe('OOTD', () => {
+describe('AIFit', () => {
   beforeEach(() => {
     // Reset any random-related state between tests
   })
 
-  it('renders the title "OOTD"', () => {
+  it('renders the title "AIFit"', () => {
     setup()
     expect(
-      screen.getByRole('heading', { name: /ootd/i, level: 1 }),
+      screen.getByRole('heading', { name: /aifit/i, level: 1 }),
     ).toBeInTheDocument()
   })
 
